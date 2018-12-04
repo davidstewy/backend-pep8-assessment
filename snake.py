@@ -29,7 +29,7 @@ food = [10, 20]
 # Prints the food
 win.addch(food[0], food[1], '*')
 
-while key != 27:           # While Esc key is not pressed
+while key != 27:           # While ESC key is not pressed
     win.border(0)
     # Printing 'Score' and
     win.addstr(0, 2, 'Score : ' + str(score) + ' ')
